@@ -13,8 +13,8 @@
 <br><br>
 
 ## API 가이드
-**년별 로그인 수 조회**
-- URL : calhost:8038/loginhistory-year
+**1. 년별 로그인 수 조회**
+- URL : localhost:8038/loginhistory-year
 - RequestParameter
   <table>
     <tr>
@@ -26,6 +26,7 @@
       <td>String</td>
     </tr>
   </table>    
+  
 - Response Body
   <table>
     <tr>
@@ -41,3 +42,88 @@
       <td>String</td>
     </tr>
   </table>   
+  
+**2. 월별 로그인 수 조회**
+- URL : localhost:8038/loginhistory-month
+- RequestParameter
+  <table>
+    <tr>
+      <td>요청</td>
+      <td>타입</td>
+    </tr>
+    <tr>
+      <td>year</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>month</td>
+      <td>String</td>
+    </tr>
+  </table>    
+  
+- Response Body
+  <table>
+    <tr>
+      <td>요청</td>
+      <td>타입</td>
+    </tr>
+    <tr>
+      <td>year</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>month</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>code</td>
+      <td>String</td>
+    </tr>
+  </table>    
+
+**3. 일별 로그인 수 조회**
+- URL : localhost:8038/loginhistory-date
+- RequestParameter
+  <table>
+    <tr>
+      <td>요청</td>
+      <td>타입</td>
+    </tr>
+    <tr>
+      <td>year</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>month</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>String</td>
+    </tr>
+  </table>    
+  
+- Response Body
+  <table>
+    <tr>
+      <td>요청</td>
+      <td>타입</td>
+    </tr>
+    <tr>
+      <td>year</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>month</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>code</td>
+      <td>String</td>
+    </tr>
+  </table>
+  
