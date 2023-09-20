@@ -11,6 +11,7 @@
   - 일별 로그인 수 조회    
   <img width="886" alt="date" src="https://github.com/vihiolet/springProject/assets/108925254/3967fa90-c219-4b28-9a79-d3bb8c6ac1db">
 <br><br>
+
 ## API 가이드
 **년별 로그인 수 조회**
 - URL : calhost:8038/loginhistory-year
