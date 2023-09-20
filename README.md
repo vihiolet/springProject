@@ -14,7 +14,7 @@
 
 ## API 가이드
 #### 1. 연별 로그인 수 조회
-**기본정보**     
+- 기본정보    
 <table>
   <tr>
     <td>메서드</td>
@@ -27,8 +27,8 @@
 </table>    
 <br><br>
 
-**요청**
-- Request Parameter
+- 요청    
+**Request Parameter**
 <table>
   <tr>
     <td>이름</td>
@@ -43,8 +43,8 @@
 </table>    
 <br><br>
 
-**응답**
-- Response Parameter
+- 응답    
+**Response Parameter**
 <table>
   <tr>
     <td>이름</td>
@@ -74,15 +74,15 @@
 </table>  
 <br><br>
 
-**예제**
-- Response Body   
+- 예제    
+**Response Body**
 
-  {    
-        'yearCnt' : '3',    
-        'year' : '2023',    
-        'code' : '200',    
-        'message' : '성공'           
-  }    
+{    
+      'yearCnt' : '3',    
+      'year' : '2023',    
+      'code' : '200',    
+      'message' : '성공'           
+}    
   
 #### 2. 월별 로그인 수 조회
 **기본정보**     
