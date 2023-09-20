@@ -74,7 +74,7 @@ Response Parameter
 </table>  
 <br><br>
 
-**예제**    
+**예제**
 Response Body    
 
 {    
@@ -148,13 +148,14 @@ Response Body
 </table>       
 
 **예제**
-- Response Body    
+Response Body    
+
 {    
-    'yearCnt' : '3',    
-    'year' : '2023',
-    'month' : '09',    
-    'code' : '200',    
-    'message' : '성공'           
+&nbsp;'yearCnt' : '3',    
+&nbsp; year' : '2023',  
+&nbsp; month' : '09',  
+&nbsp;'code' : '200',    
+&nbsp;&nbsp;'message' : '성공'           
 }    
 
 #### 3. 일별 로그인 수 조회
@@ -231,14 +232,15 @@ Response Body
 </table>   
 
 **예제**
-- Response Body    
+Response Body    
+
 {    
-    'dateCnt' : '3',    
-    'year' : '2023',
-    'month' : '09',
-    'date' : '18',    
-    'code' : '200',    
-    'message' : '성공'           
+&nbsp;'yearCnt' : '3',    
+&nbsp; year' : '2023',  
+&nbsp; month' : '09',  
+&nbsp; date' : '18',  
+&nbsp;'code' : '200',    
+&nbsp;&nbsp;'message' : '성공'           
 }    
 
   
