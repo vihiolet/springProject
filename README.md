@@ -25,21 +25,23 @@
     <td>localhost:8038/loginhistory-year</td>
   </tr>
 </table>    
+<br><br>
 
 **요청**
 - Request Parameter
-<table>
-  <tr>
-    <td>이름</td>
-    <td>타입</td>
-    <td>설명</td>
-  </tr>
-  <tr>
-    <td>year</td>
-    <td>String</td>
-    <td>연별 로그인 수를 전달 받을 값(연)</td>
-  </tr>
-</table>    
+  <table>
+    <tr>
+      <td>이름</td>
+      <td>타입</td>
+      <td>설명</td>
+    </tr>
+    <tr>
+      <td>year</td>
+      <td>String</td>
+      <td>연별 로그인 수를 전달 받을 값(연)</td>
+    </tr>
+  </table>    
+<br><br>
 
 **응답**
 - Response Parameter
@@ -70,9 +72,11 @@
     <td>통신 성공/실패 여부 메세지</td>
   </tr>
 </table>  
+<br><br>
 
 **예제**
-- Response Body    
+- Response Body   
+<br><br>
 {    
     'yearCnt' : '3',    
     'year' : '2023',    
