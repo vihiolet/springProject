@@ -98,7 +98,7 @@ Response Body
 </table>    
 
 **요청**
-- Request Parameter
+Request Parameter    
 <table>
   <tr>
     <td>이름</td>
@@ -118,7 +118,7 @@ Response Body
 </table>    
 
 **응답**
-- Response Parameter
+Response Parameter    
 <table>
   <tr>
     <td>이름</td>
@@ -172,7 +172,7 @@ Response Body
 </table>    
 
 **요청**
-- Request Parameter
+Request Parameter    
 <table>
   <tr>
     <td>이름</td>
@@ -197,7 +197,7 @@ Response Body
 </table>    
 
 **응답**
-- Response Parameter
+Response Parameter    
 <table>
   <tr>
     <td>이름</td>
